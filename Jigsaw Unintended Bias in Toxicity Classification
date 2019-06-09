@@ -8,6 +8,9 @@ Jigsaw Unintended Bias in Toxicity Classification
                                                                 소문자로 통일하는 것을 뺏더니 성능이 더 좋은 경우가 있음)
 - time문제 -> pickle, train data set의 memory줄이기
 
+https://www.kaggle.com/timon88/bert-lstm-simple-blender-0-93844-lb/data
+https://www.kaggle.com/bminixhofer/simple-lstm-pytorch-version
+https://www.kaggle.com/kunwar31/simple-lstm-with-identity-parameters-fastai/notebook
 def reduce_mem_usage(df):
     start_mem = df.memory_usage().sum() / 1024**2
     print('Memory usage of dataframe is {:.2f} MB'.format(start_mem))
