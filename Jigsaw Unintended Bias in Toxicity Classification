@@ -98,6 +98,6 @@ def reduce_mem_usage(df):
 4. bert + lstm (blending weight change) -> 0.93849     
              blending weight : (bert - 0.35), (lstm - 0.65)
              
-★5. bert + lstm (blending weight change) -> 0.93852  
+★5. bert + lstm (blending weight change, bert_MAX_LEN = 300) -> 0.93852  
 blending weight : (bert - 0.36), (lstm - 0.64)
 
