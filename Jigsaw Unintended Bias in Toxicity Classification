@@ -109,3 +109,9 @@ blending weight : (bert - 0.38), (lstm - 0.62)
 
 ★8. bert + lstm (blending weight change, bert_MAX_LEN = 300) -> 0.93856 
 blending weight : (bert - 0.4), (lstm - 0.6)
+
+9. bert + lstm (blending weight change, bert_MAX_LEN = 300) -> 0.93855
+blending weight : (bert - 0.41), (lstm - 0.59)
+
+10. bert + lstm (blending weight change, bert_MAX_LEN = 300) -> 0.93853 
+blending weight : (bert - 0.42), (lstm - 0.58)
